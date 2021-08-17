@@ -1,0 +1,17 @@
+.button{
+    color: #00d1b2;
+    border-radius: 80%;
+    border-color: #00d1b2;
+}
+.button2{
+    color: white;
+    border-radius: 50%;
+    background-color: #00d1b2;
+    border-color: white;
+
+}
+.button3{
+    color: white;
+    background-color: #2b78e4;
+    box-shadow: 5px 5px black;
+}
