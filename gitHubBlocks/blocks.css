@@ -1,0 +1,37 @@
+.container{
+    width: 750px;
+    background-color: #02577a;
+    margin: auto;
+    padding: 15px;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #02a9f7;
+}
+.row{
+    height: 200px;
+    background-color: #02a9f7;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+#b{
+    background-color: #d4f0fc;
+}
+#m{
+    background-color: #89d6fb;
+}
+img{
+    height: 200px;
+}
+h2{
+    font-size: 15px;
+    text-align: center;
+}
+p1{
+    color: #1a73e8;
+    text-decoration: underline;
+}
