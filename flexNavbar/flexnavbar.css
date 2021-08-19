@@ -33,8 +33,8 @@ a:hover{
 }
 
 .btn{
-    color: black;
+    color: white;
     background-color: #17a2b8;
-    box-shadow: 5px 5px;
-    border: 2px solid;
+    box-shadow: 5px 5px black;
+    border: none;
 }
