@@ -1,0 +1,44 @@
+.container{
+    height: 300px;
+    width: 500px;
+    margin: 100px auto;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topBar{
+    background-color: #17a2b8;
+    height: 75px;
+}
+.topBar img{
+    border-radius: 50%;
+    height: 55px;
+    margin: 50px 25px;
+    border-width: 5px;
+}
+.lowBar{
+    background-color: white;
+    height: auto;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+}
+.lowBar img{
+    width: 10px;
+}
+#map{
+    width: 20px;
+}
+.low{
+    margin: 5px;
+}
+.link{
+    margin: 5px;
+    color: #085394;
+    text-decoration: underline;
+}
