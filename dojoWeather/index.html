@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navBarContainer">
+        <div class="navBar">
+            <h1>DojoWeather</h1>
+            <div class="rightNav" >
+                <p onclick="alert('Loading weather report...')">Burbank</p>
+                <p onclick="alert('Loading weather report...')">Chicago</p>
+                <p onclick="alert('Loading weather report...')">Dallas</p>
+            </div>
+        </div>
+    </div>
+    <div class="cityBarContainer">
+        <div class="cityBar">
+            <h2>San Jose</h2>
+            <div class="rightBar">
+                <p>show temperature in </p>
+                <select onchange="temp(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="containerBox">
+            <div class="box">
+                <h3>Today</h3>
+                <img src="assets\some_rain.png" alt="rainImg">
+                <p>some rain</p>
+                <div class="boxTemp">
+                    <span id="red">24°</span>
+                    <span id="blue">18°</span>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Tommorow</h3>
+                <img src="assets\some_sun.png" alt="rainImg">
+                <p>some sun</p>
+                <div class="boxTemp">
+                    <span id="red2">27°</span>
+                    <span id="blue2">19°</span>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Friday</h3>
+                <img src="assets\some_rain.png" alt="rainImg">
+                <p>some clouds</p>
+                <div class="boxTemp">
+                    <span id="red3">21°</span>
+                    <span id="blue3">16°</span>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Saturday</h3>
+                <img src="assets\some_sun.png" alt="rainImg">
+                <p>some sun</p>
+                <div class="boxTemp">
+                    <span id="red4">26°</span>
+                    <span id="blue4">21°</span>
+                </div>
+            </div>
+        </div>
+        <div class="policy">
+            <img src="assets\cookie.png" alt="cookie">
+            <div class="stop">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize
+                    content and ads, to provide social media features and to
+                    analyse our traffic. <a href="url">Read more...</a>
+                </p>
+            </div>
+            <button onclick="hide()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
